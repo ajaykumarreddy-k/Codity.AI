@@ -1,0 +1,13 @@
+Codity.ai is a production-grade distributed job scheduling engine built with FastAPI, PostgreSQL, and async Python.
+It atomically claims and executes background jobs across multiple concurrent workers using PostgreSQL's FOR UPDATE SKIP LOCKED.
+
+Features:
+- Full-stack job scheduling platform
+- React-based dashboard
+- FastAPI backend
+- PostgreSQL for atomic claiming
+- Workers built in async Python
+- Job types: immediate, delayed, scheduled, recurring (cron)
+- Configurable queues, retry policies, priorities, and concurrency limits
+- Dead Letter Queue for permanent failures
+- Execution logs and metrics
